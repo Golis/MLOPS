@@ -4,7 +4,7 @@
 variables:
 - template: ../../config-infra-prod.yml
 - name: endpoint_name
-  value: taxi-onl-hab-$(namespace)$(postfix)$(environment)
+  value: taxi-xxx-hab-$(namespace)$(postfix)$(environment)
 - name: endpoint_type
   value: online
 
